@@ -5,27 +5,49 @@
 	<meta charset="utf-8">
 	<style>
 	.paragrafas {
-		color: violet;
+		color: rgba(150, 155, 178 0.5);
 	}
 	.nuoroda {
-		color: orange;
+		color: red;
+		padding: 20px;
+		background-color: blue;
+		text-decoration: none;
+		border: 5px solid white;
+		border-radius: 10px:;
 	}
 	.lentele {
 		width: 80%;
+	}
+	.b1 {background-color: yellow;
+
+	}
+	.b2 {background-color: green;
+
+	}
+	.b3 {background-color: red;
+
+	}
+	.bendras {
+		padding: 30px;
+		width: 25%;
+		float: left;
+		border: 5px solid white;
+
+
 	}
 	h2 {
 		color: grey;
 	}
 	td {
 		font-size: 40px;
-		background-color: blue;
-		border: 2px solid green;
+		background-color: #8FBC8F;
+		border: 2px solid aqua;
 		padding: 10px;
 		text-align: center;
 	}
 	body {
 		padding: 50px;
-		background-color: yellow;
+		background-color: white;
 		font-family: arial;
 	}
 	</style>
@@ -34,9 +56,13 @@
 	<h1>My documents</h1>
 	<h2>Apie mane</h2>
 	<p class="paragrafas">as mokausi HTML ir PHP</p>
-	<h2>Lankomiausios svetaines</h2>
-	<a class="nuoroda" href="http://facebook.com">facebook</a><br />
-	<a href="http://autoplius.lt">autoplius</a>
+	<h2>Lankomiausios svetaines</h2><br />
+
+	<a class="nuoroda" href="http://autoplius.lt">autoplius</a>
+	<a class="nuoroda" href="http://autoplius.lt">autoplius</a>
+	<a class="nuoroda" href="http://autoplius.lt">autoplius</a>
+	<a class="nuoroda" href="http://autoplius.lt">autoplius</a>
+
 	
 	<h2>Mano muzikos TOP5</h2>
 	<ol>
@@ -59,21 +85,32 @@
 	</ul>
 
 	<table class="lentele">
-		<tr>
-			<td>1</td>
-			<td>2</td>
-			<td>3</td>
-		</tr>
-		<tr>
-			<td>4</td>
-			<td>5</td>
-			<td>6</td>
-		</tr>
-		<tr>
-			<td>7</td>
-			<td>8</td>
-			<td>9</td>
-		</tr>
+	<thead>
+		<th>A</th>
+		<th>B</th>
+		<th>C</th>
+	</thead>
+	<tbody>
+		
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td colspan="2">4</td>
+				<td rowspan="2">6</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>8</td>
+			</tr>
+		</tbody>		
 	</table>
+
+	<div class="b1 bendras">Blokas 1</div>
+	<div class="b2 bendras">Blokas 2</div>
+	<div class="b3 bendras">Blokas 3</div>
+
 </body>
 </html>
