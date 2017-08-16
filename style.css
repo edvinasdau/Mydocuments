@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
 	background-color: yellow;
 	border: solid green 3px;
@@ -9,3 +10,50 @@ h1 {
 	margin-left: 35%;
 	border-radius: 50px;
 }
+=======
+	i {
+	color: black;
+	}
+	.header {
+		width: 80%;
+		background-color: orange;
+		height: 100px;
+		padding: 50px;
+		margin: 50px;
+		border: 10px solid red;
+		font-size: 50px;
+		text-align: center;
+	}
+
+	.menu {
+		width: 100%;
+		background-color: green;
+		color: white;
+		padding: 10px;
+	}
+
+	#content {
+		width: 400px;
+		background-color: orange;
+	}
+
+	.nuoroda {
+		color: red;
+		padding: 20px;
+		background-color: yellow;
+		text-decoration: none;
+		border: 5px solid white;
+		border-radius: 10px
+	}
+
+	body {
+		margin: 0px;
+	}
+	.tekstas {
+			background-color: grey;
+			margin: 40px;
+			padding: 50px;
+			width: 10%;
+			float: left;
+			text-align: center;
+>>>>>>> ab0a71d5b079e43d44d758883e27f74c4b467c9a
