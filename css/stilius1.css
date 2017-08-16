@@ -1,0 +1,50 @@
+		h1 {
+			background-color: yellow;
+			border: solid green 3px;
+			text-align: center; 
+			font-size: 300%;
+			color: blue;
+			margin: 100px;
+			width: 30%;
+			margin-left: 35%;
+			border-radius: 50px;
+		}
+		h2 {
+			text-align: center; 
+		}
+		div {
+			background-color: yellow;
+			border: solid blue 3px;
+			text-align: center;
+		}
+		#pirmas {
+			background-color: pink;
+			border: solid black 4px;
+			text-align: center;
+			color: purple;
+			padding: 2px;
+			margin: 10px;
+			width: 30%;
+			margin-left: 35%;
+		}
+
+		a {
+			font-size: 150%;
+		}
+		p {
+			font-size: 200%;
+			text-align: center;
+			border: dashed red;
+			margin: 10px;
+			width: 50%;
+			margin-left: 25%;
+			border-radius: 10px;
+		}
+		li {
+			font-size:150%;
+			background-color: aqua;
+			margin: 20px;
+			padding-left: 6px;
+			width: 150px;
+			border: dashed black;
+		}
