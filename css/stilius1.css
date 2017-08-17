@@ -1,13 +1,14 @@
 		h1 {
 			background-color: yellow;
-			border: solid green 3px;
+			border: solid purple 3px;
 			text-align: center; 
 			font-size: 300%;
-			color: blue;
+			color: green;
 			margin: 100px;
 			width: 30%;
 			margin-left: 35%;
 			border-radius: 50px;
+			font-family: 'Sedgwick Ave Display', cursive;
 		}
 		h2 {
 			text-align: center; 
