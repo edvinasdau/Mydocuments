@@ -1,3 +1,4 @@
+		@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
 		h1 {
 			background-color: yellow;
 			border: solid purple 3px;
@@ -40,6 +41,7 @@
 			width: 50%;
 			margin-left: 25%;
 			border-radius: 10px;
+			background-color: yellow;
 		}
 		li {
 			font-size:150%;
